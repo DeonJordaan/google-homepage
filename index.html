@@ -4,36 +4,118 @@
             margin: auto;
             width: 290px;
             display: block;
-            margin-top: 225px;
-            
-        }
+            margin-top: 225px;            
+            }
          
         nav li {
-        display: inline;
-        margin-right: 50px;
-        }
+            display: inline;
+            margin-right: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            }
 
         footer li {
-        display: inline;
-        }
+            display: inline;
+            margin-right: 50px;
+            }
 
         #footer {
             position: fixed;
             bottom: 0px;
             left: 0px;
+            font-family: arial;
+            font-size: 14px;
+            }
+
+        #searchbar {
+            position: center;
+            width: 100%;
+
+        
+        }
+            
+        }
+/*
+        .search {
+            position: absolute;
+            margin: auto;          
+            top: 20;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 400px;
+            height: 40px;
+            background-color: rgb(240, 240, 247);
+            border-radius: 20px;
+            border-color: #cacdcf;
+            border-width: 1px;
+            border-style: solid;
+            }
+
+        .search:hover {
+            box-shadow: 0px 0px 2px rgb(148, 153, 148);
+            transform: scale(1.01);
+            } */
+/*
+        .search-buttons .button {
+            background-color: aqua;
+            border: none;
+            color: blue;
+            padding: 15px 15px;
+            text-align: center;
+            font-size: 12px;
+            float: left;
+            
+        }
+        
+
+        #search-button {
+            position: relative;
+            top: 70px;
+            left: 250px;
+            width: 100px;
+            height: 1px;
+            background-color: rgb(213, 213, 224);
+            border-radius: 5px;
+            padding: 15px 15px;
+            text-align: center;
+            font-size: 12px;
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
+        #search-button:hover {
+            box-shadow: 0px 0px 2px rgb(148, 153, 148);
+            transform: scale(1.01);
+            }
 
+            
+        #lucky-button {
+            position: relative;
+            top: 70px;
+            left: 275px;
+            width: 100px;
+            height: 1px;
+            background-color: rgb(213, 213, 224);
+            border-radius: 5px;
+            padding: 15px 15px;
+            text-align: center;
+            font-size: 12px;
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            }
 
+        #lucky-button:hover {
+            box-shadow: 0px 0px 2px rgb(148, 153, 148);
+            transform: scale(1.01);
+            }*/
 
-
+            
 
     </style>
 
 <head>
 
-
-</div>
 <nav id="navbar">
     <ul>
       <li><a href="">About</a></li>
@@ -41,19 +123,30 @@
       <li><a href="">Gmail</a></li>
       <li><a href="">Images</a></li>      
     </ul>
-  </nav>
+</nav>
 
 </head>
 
-
 <body>
 
-<div class="search"></div>
+<img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+
+<!--<div class="search"></div>-->
+
+<form id="searchbar">
+    <!--<label for="search">Search:</label>-->
+    <input type="search" id="search" name="search">
+    <input type="submit" name="submit" value="Go!">
+  </form>
+<!--
+<input id="search-button" type="submit" type="button" name="submit" value="Google Search">
+<input id="lucky-button" type="submit" type="button" name="submit" value="I'm Feeling Lucky">
+-->
 
 
+</body>
 
-    <img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
-<body/>
+
 <footer id="footer">
     <ul>
         <li><a href="">Advertising</a></li>
@@ -64,4 +157,4 @@
         <li><a href="">Settings</a></li>
     </ul>
 </footer>
-    </html>
+</html>

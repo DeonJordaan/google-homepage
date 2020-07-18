@@ -1,0 +1,105 @@
+<style>
+        #googlelogo {
+            margin: auto;
+            width: 290px;
+            display: block;
+            margin-top: 225px;            
+            }
+         
+        nav li {
+            display: inline;
+            margin-right: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            }
+
+        footer li {
+            display: inline;
+            margin-right: 50px;
+            }
+
+        #footer {
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            font-family: arial;
+            font-size: 14px;
+            }
+
+        .search {
+            position: absolute;
+            margin: auto;          
+            top: 20;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 400px;
+            height: 40px;
+            background-color: rgb(240, 240, 247);
+            border-radius: 20px;
+            border-color: #cacdcf;
+            border-width: 1px;
+            border-style: solid;
+            }
+
+        .search:hover {
+            box-shadow: 0px 0px 2px rgb(148, 153, 148);
+            transform: scale(1.01);
+            }
+
+        .search-buttons .button {
+            background-color: aqua;
+            border: none;
+            color: blue;
+            padding: 15px 15px;
+            text-align: center;
+            font-size: 12px;
+            float: left;
+            
+        }
+        
+
+        #search-button {
+            position: relative;
+            top: 70px;
+            left: 250px;
+            width: 100px;
+            height: 1px;
+            background-color: rgb(213, 213, 224);
+            border-radius: 5px;
+            padding: 15px 15px;
+            text-align: center;
+            font-size: 12px;
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #search-button:hover {
+            box-shadow: 0px 0px 2px rgb(148, 153, 148);
+            transform: scale(1.01);
+            }
+
+            
+        #lucky-button {
+            position: relative;
+            top: 70px;
+            left: 275px;
+            width: 100px;
+            height: 1px;
+            background-color: rgb(213, 213, 224);
+            border-radius: 5px;
+            padding: 15px 15px;
+            text-align: center;
+            font-size: 12px;
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+        #lucky-button:hover {
+            box-shadow: 0px 0px 2px rgb(148, 153, 148);
+            transform: scale(1.01);
+            }
+
+            
+
+    </style>
