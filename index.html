@@ -6,25 +6,85 @@
             display: block;
             margin-top: 225px;                      
             }
-         
+        
+            
         nav li {
             display: inline;
-            margin-right: 50px;
+            margin-right: 20px;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;
+            font-size: 13px;
+            
             }
 
-        footer li {
+        nav ul {
+            list-style-type: none;           
+            padding: 0px 10px 0px 10px;
             display: inline;
-            margin-right: 50px;
+            position: fixed;
+            top: 0px;
+            width: 95%;
+            color: black;
+            
+        } 
+
+        a:link {
+            text-decoration: none;            
+        }
+
+        #apps {
+            position: relative
+            bottom: 30px;
+            border: none;
+            width: 30px;
+            height: 30px;            
+            background-color: transparent;
+            background: url("google sprites.png") -245px -32px;
+
+        }
+     
+        #button {
+            background-color: #322fdb;
+            border: none;
+            color: white;
+            padding: 7px 15px;
+            text-align: center;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            border-radius: 2px;
+            position: relative;
+            bottom: 5px;
+}
+
+        footer li {                       
+            display: inline;
+            margin-right: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: black;
             }
+
+        footer ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            display: inline;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            background-color: #f1f1f1;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #f1f1f1;
+            padding: 10px 10px 10px 10px;
+        }
 
         #footer {
             position: fixed;
             bottom: 0px;
             left: 0px;
-            font-family: arial;
-            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
             }
 
         #searchbar {
@@ -33,18 +93,19 @@
         }
 
         #search {
-            width: 500px;
+            width: 470px;
             height: 40px;
             border-radius: 20px;
             border-width: 1px;
             border-style: solid;
             margin-top: 20px;
-
+            
         }
 
         #search:hover {
             box-shadow: 0px 0px 2px rgb(148, 153, 148);
             transform: scale(1.01);
+            background-color: transparent;
             }
 
         center {
@@ -57,36 +118,49 @@
             margin-left: 20px;
             margin-top: 20px;
             border: none;
-            background-color: #f8f8f8;
+            background-color: #f1f1f1;            
             height: 30px;
             border-radius: 3px;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 14px;
-        }
+            color: gray;
+                    }
 
         input[type=submit]:hover {
             border: 1px solid #c6c6c6
+                               
+        }            
+
+        #search-icon {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            right: 215px;
+            top: 57px;
+            background-color: transparent;
+            background: url("google sprites.png") -245px -32px;
+            
+
         }
 
-        input[type=search] {
-            background-color: white;
-            background-image: url('searchicon.png');
-            background-position: 10px 10px;
-            background-repeat: no-repeat;
-            padding-left: 40px;
-        }
+ 
+       
 
     </style>
 
 <head>
 
 <nav id="navbar">
+    <section>
     <ul>
       <li><a href="">About</a></li>
       <li><a href="">Store</a></li>
-      <li><a href="">Gmail</a></li>
-      <li><a href="">Images</a></li>      
+      <button id="button" style="float:right;">Sign In</button>
+      <button id="apps" style="float:right;"></button>
+      <li style="float:right;"><a href="">Images</a></li>      
+      <li style="float:right;"><a href="">Gmail</a></li>
     </ul>
+</section>
 </nav>
 
 </head>
@@ -95,14 +169,14 @@
 
 <img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
 
-<!--<div class="search"></div>-->
+
 
 <center>
 <form id="searchbar">
-    <!--<label for="search">Search:</label>-->
-    <input type="search" id="search" name="search">
-    <input id="search-button" type="submit" name="submit" value="Google Search">
-    <input id="lucky-button" type="submit" name="submit" value="I'm Feeling Lucky">
+    <div id="search-icon"></div>
+    <input type="text" id="search" name="search">
+    <input type="submit" name="submit" value="Google Search">
+    <input type="submit" name="submit" value="I'm Feeling Lucky">
   </form>
 
 </center>
@@ -111,13 +185,15 @@
 
 
 <footer id="footer">
+    <section>
     <ul>
         <li><a href="">Advertising</a></li>
         <li><a href="">Business</a></li>
         <li><a href="">How search works</a></li>
-        <li><a href="">Privacy</a></li>
-        <li><a href="">Terms</a></li>
-        <li><a href="">Settings</a></li>
+        <li style="float:right;"><a href="">Settings</a></li>
+        <li style="float:right;"><a href="">Terms</a></li>
+        <li style="float:right;"><a href="">Privacy</a></li>
     </ul>
+</section>
 </footer>
 </html>
