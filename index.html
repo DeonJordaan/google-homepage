@@ -1,183 +1,55 @@
 <html>
-    <style>
-        
-        #googlelogo {
-            margin: auto;
-            width: 275px;
-            display: block;
-            margin-top: 160px;
-            margin-bottom: 25px;                      
-            }
-        
-            
-        nav li {
-            display: inline;
-            margin-right: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 13px;
-            color: black;
-            
-            }
-
-        nav ul {
-            list-style-type: none;           
-            padding: 0px 10px 0px 10px;
-            display: inline;
-            position: fixed;
-            top: 0px;
-            width: 95%;
-            color: black;
-            
-        } 
-
-        a:link {
-            text-decoration: none;            
-            }
-
-        #apps {
-            border: none;
-            width: 30px;
-            height: 30px;
-            background: url("google sprites.png") -135px -45px;
-
-            }
-     
-        #button {
-            background-color: #322fdb;
-            border: none;
-            color: white;
-            padding: 7px 15px;
-            text-align: center;
-            font-size: 13px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bold;
-            border-radius: 2px;
-            position: relative;
-            bottom: 5px;
-            left: 15px;
-            }
-
-      
-
-        footer li {                       
-            display: inline;
-            margin-right: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            color: black;
-            }
-
-        footer ul {
-            list-style-type: none;
-            margin: 0px;
-            display: inline;
-            position: fixed;
-            bottom: 0px;
-            width: 98%;
-            background-color: #f1f1f1;
-            border-width: 1px;
-            border-style: solid;
-            border-color: #f1f1f1;
-            padding: 10px 10px 10px 10px;
-            }
-
-        #footer {
-            position: fixed;
-            bottom: 0px;
-            left: 10px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 13px;
-            }
-
- 
-        input[type=text] {
-            width: 575px;
-            height: 42px;
-            border-radius: 20px;
-            border-color: transparent;       
-            background-color: white;
-            box-shadow: 0px 0px 3px rgb(148, 153, 148);
-            background-image: url("icon-search.jpg");
-            background-position: 10px 7px;
-            background-repeat: no-repeat;
-            padding-left: 40px;
-            
-        }
-
-        center {
-            position: relative;
-            margin: auto;
-        }
-
-        input[type=submit] {
-            position: relative;
-            margin-left: 20px;
-            margin-top: 30px;
-            border: none;
-            background-color: #f1f1f1;            
-            height: 30px;
-            border-radius: 3px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            color: gray;
-        }
-
-        input[type=submit]:hover {
-            border: 1px solid #c6c6c6
-                               
-        }            
-      
-
-    </style>
 
 <head>
 
-<nav id="navbar">
-    <section>
-    <ul>
-      <li><a href="">About</a></li>
-      <li><a href="">Store</a></li>
-      <button id="button" style="float:right;">Sign In</button>
-      <button id="apps" style="float:right;"></button>
-      <li style="float:right;"><a href="">Images</a></li>      
-      <li style="float:right;"><a href="">Gmail</a></li>
-    </ul>
-</section>
-</nav>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <nav id="navbar">
+        <section>
+            <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Store</a></li>
+            <button id="button" style="float:right;">Sign In</button>
+            <button id="apps" style="float:right;"></button>
+            <li style="float:right;"><a href="">Images</a></li>      
+            <li style="float:right;"><a href="">Gmail</a></li>
+            </ul>
+        </section>
+    </nav>
 
 </head>
 
 <body>
 
-<img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+    <img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
 
 
 
-<center>
-<form id="searchbar">
-    <div id="search-icon"></div>
-    <input type="text" id="search" name="search">
-    <div>
-    <input type="submit" name="submit" value="Google Search">
-    <input type="submit" name="submit" value="I'm Feeling Lucky">
-    </div>
-  </form>
-
-</center>
+    <center>
+        <form id="searchbar">
+            <div id="search-icon"></div>
+            <input type="text" id="search" name="search">
+            <div>
+            <input type="submit" name="submit" value="Google Search">
+            <input type="submit" name="submit" value="I'm Feeling Lucky">
+            </div>
+        </form>
+    </center>
 
 </body>
 
 
 <footer id="footer">
     <section>
-    <ul>
+        <ul>
         <li><a href="">Advertising</a></li>
         <li><a href="">Business</a></li>
         <li><a href="">How search works</a></li>
         <li style="float:right;"><a href="">Settings</a></li>
         <li style="float:right;"><a href="">Terms</a></li>
         <li style="float:right;"><a href="">Privacy</a></li>
-    </ul>
-</section>
+        </ul>
+    </section>
 </footer>
 </html>

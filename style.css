@@ -1,105 +1,119 @@
-<style>
-        #googlelogo {
-            margin: auto;
-            width: 290px;
-            display: block;
-            margin-top: 225px;            
-            }
-         
-        nav li {
-            display: inline;
-            margin-right: 50px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            }
 
-        footer li {
-            display: inline;
-            margin-right: 50px;
-            }
-
-        #footer {
-            position: fixed;
-            bottom: 0px;
-            left: 0px;
-            font-family: arial;
-            font-size: 14px;
-            }
-
-        .search {
-            position: absolute;
-            margin: auto;          
-            top: 20;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            width: 400px;
-            height: 40px;
-            background-color: rgb(240, 240, 247);
-            border-radius: 20px;
-            border-color: #cacdcf;
-            border-width: 1px;
-            border-style: solid;
-            }
-
-        .search:hover {
-            box-shadow: 0px 0px 2px rgb(148, 153, 148);
-            transform: scale(1.01);
-            }
-
-        .search-buttons .button {
-            background-color: aqua;
-            border: none;
-            color: blue;
-            padding: 15px 15px;
-            text-align: center;
-            font-size: 12px;
-            float: left;
-            
-        }
         
+#googlelogo {
+    margin: auto;
+    width: 275px;
+    display: block;
+    margin-top: 160px;
+    margin-bottom: 25px;                      
+    }
 
-        #search-button {
-            position: relative;
-            top: 70px;
-            left: 250px;
-            width: 100px;
-            height: 1px;
-            background-color: rgb(213, 213, 224);
-            border-radius: 5px;
-            padding: 15px 15px;
-            text-align: center;
-            font-size: 12px;
-            display: inline-block;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+    }
 
-        #search-button:hover {
-            box-shadow: 0px 0px 2px rgb(148, 153, 148);
-            transform: scale(1.01);
-            }
+nav ul {
+    list-style-type: none;           
+    padding: 0px 10px 0px 10px;
+    display: inline;
+    position: fixed;
+    top: 0px;
+    width: 95%;
+    color: black;
+    } 
 
-            
-        #lucky-button {
-            position: relative;
-            top: 70px;
-            left: 275px;
-            width: 100px;
-            height: 1px;
-            background-color: rgb(213, 213, 224);
-            border-radius: 5px;
-            padding: 15px 15px;
-            text-align: center;
-            font-size: 12px;
-            display: inline-block;
-            font-family: Arial, Helvetica, sans-serif;
-            }
+a:link {
+    text-decoration: none;            
+    }
 
-        #lucky-button:hover {
-            box-shadow: 0px 0px 2px rgb(148, 153, 148);
-            transform: scale(1.01);
-            }
+#apps {
+    border: none;
+    width: 30px;
+    height: 30px;
+    background: url("google sprites.png") -135px -45px;
+    }
+     
+#button {
+    background-color: #322fdb;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 2px;
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+    }
 
-            
+footer li {                       
+    display: inline;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    }
 
-    </style>
+footer ul {
+    list-style-type: none;
+    margin: 0px;
+    display: inline;
+    position: fixed;
+    bottom: 0px;
+    width: 98%;
+    background-color: #f1f1f1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f1f1f1;
+    padding: 10px 10px 10px 10px;
+    }
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    }
+
+ 
+input[type=text] {
+    width: 575px;
+    height: 42px;
+    border-radius: 20px;
+    border-color: transparent;       
+    background-color: white;
+    box-shadow: 0px 0px 3px rgb(148, 153, 148);
+    background-image: url("icon-search.jpg");
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    }
+
+center {
+    position: relative;
+    margin: auto;
+    }
+
+input[type=submit] {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: none;
+    background-color: #f1f1f1;            
+    height: 30px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+    }
+
+input[type=submit]:hover {
+    border: 1px solid #c6c6c6
+    }
