@@ -1,6 +1,5 @@
-For my first TOP project I will deconstruct a webpage and then rebuild it in order to practice and develop my HTML & CSS skills.
+# Google Search Page Copy
 
-Update: 19 July 2020
+When I started studying web development, I briefly tried [The Odin Project](https://www.theodinproject.com/).
 
-My page actually looks like a google page! Who would've thought?!
-I've really enjoyed the experience and I'm really looking forward to learning more. I have already experienced the well-documented phenomenon that every coder has to experience at some point in time....it works, but I'm not sure how or why?
+For my first project, I had to deconstruct a webpage and then rebuild it in order to practice and develop my HTML & CSS skills.
